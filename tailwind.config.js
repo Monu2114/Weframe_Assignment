@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+      },
       colors: {
         navbar: "#11455D",
       },

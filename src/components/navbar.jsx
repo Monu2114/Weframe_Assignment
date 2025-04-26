@@ -12,7 +12,7 @@ const Navbar = () => {
     "Pending Questions",
   ];
   return (
-    <div className="bg-[#11455D] w-[248px] h-[1024px] px-4">
+    <div className="bg-[#11455D] w-[248px] h-[1062px] px-4">
       <div className="text-white/60 mt-[60px]">
         <div className=" flex flex-col gap-2 w-[216px] h-[32px] mt-[40px]">
           {navbar_array.map((element, index) => (
@@ -26,7 +26,7 @@ const Navbar = () => {
           ))}
           <a
             href="#logout"
-            className="text-20 hover:bg-gray-500 hover:rounded-sm px-2 py-2 mt-64"
+            className="text-20 hover:bg-gray-500 hover:rounded-sm px-2 py-2 mt-[500px]"
           >
             Logout
           </a>

@@ -44,10 +44,8 @@ export default function Footer() {
         </h1>
         <textarea
           placeholder="Ask your question here.."
-          className="px-4 py-1 w-[680px] h-10 border-2 bg-white border-[#D7DFE9] text-gray-700 rounded-sm resize-none"
-        >
-          {" "}
-        </textarea>
+          className="px-4 py-1 w-[680px] h-10 border-2 bg-white border-[#D7DFE9] text-[#1C222B99] rounded-sm resize-none"
+        ></textarea>
         {/* <svg
           width="20"
           height="21"

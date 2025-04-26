@@ -1,8 +1,10 @@
 export default function Finance() {
   return (
-    <div className="col-span-4  h-full border-[#EAECF0] border-2 p-4 rounded-xl flex flex-col gap-4">
+    <div className="col-span-4 h-full border-[#EAECF0] border-2 p-6 rounded-xl flex flex-col gap-4">
       <div className="flex flex-col gap-4">
-        <h1 className="font-bold">Financial Wellbeing</h1>
+        <h1 className="font-semibold text-[16px] font-inter">
+          Financial Wellbeing
+        </h1>
         <div className="flex justify-between">
           <div className="flex flex-col">
             <p className="font-semibold text-3xl">20</p>

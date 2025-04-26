@@ -7,8 +7,8 @@ export default function Leads() {
   return (
     <div className=" h-full border-[#EAECF0] border-2 p-6 rounded-xl flex flex-col gap-2">
       <div className="flex flex-col gap-4">
-        <h1 className="font-bold text-lg">Prospect Leads</h1>
-        <div className="ml-2 flex flex-col gap-2 rounded-xl">
+        <h1 className="font-semibold text-[16px] font-inter">Prospect Leads</h1>
+        <div className="ml-1 flex flex-col gap-2 rounded-xl">
           {users.map((user, index) => (
             <div
               key={index}
@@ -18,7 +18,9 @@ export default function Leads() {
                 <img src={`/users/${index}.svg`} alt="" className="w-8 h-8" />
                 <p>{user.name}</p>
               </div>
-              <div>Stage: {user.Stage}</div>
+              <div className="flex">
+                <p className="text-[#1C222BB2]">Stage:</p> {user.Stage}
+              </div>
             </div>
           ))}
         </div>
