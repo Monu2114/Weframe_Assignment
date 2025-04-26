@@ -1,6 +1,6 @@
 export default function AccountProgress() {
   return (
-    <div className="mt-6 h-[586px] max-w-1/4 ml-6 rounded-xl p-4 border-2 border-black flex flex-col items-center gap-5">
+    <div className="h-[586px] max-w-1/4 ml-6 rounded-xl p-4 border-2 border-black flex flex-col items-center gap-5">
       <h1 className="font-semibold">Account Progress</h1>
       <svg
         xmlns="http://www.w3.org/2000/svg"
