@@ -18,9 +18,9 @@ export default function Footer() {
       <div className=" flex flex-col border-r-2 border-black">
         <div>Pending Questions</div>
         <hr className="w-64 border-gray-200 rounded-sm" />
-        {questions.map((post) => {
+        {questions.map((post, index) => {
           return (
-            <div className="flex flex-col min-h-20">
+            <div key={index} className="flex flex-col min-h-20">
               <div className="inline-flex justify-between">
                 <div className="flex gap-2">
                   <img src={`${post.name}`.svg} alt="" />
@@ -35,7 +35,7 @@ export default function Footer() {
           );
         })}
       </div>
-      <div className="h- col-span-3 flex flex-col justify-center items-center gap-4 bg-gray-100">
+      <div className="col-span-3 flex flex-col justify-center items-center gap-4 bg-gray-100">
         <img src="/Logo.svg" alt="" className="w-20 h-20" />
         <h1 className="text-3xl font-semibold">
           Welcome to the AI Chat Assistant

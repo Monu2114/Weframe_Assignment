@@ -1,6 +1,6 @@
 export default function Franchise() {
   return (
-    <div className="w-[338px] max-w-4xl border-black border-2 p-4 rounded-xl flex flex-col gap-4">
+    <div className=" border-black border-2 p-4 rounded-xl flex flex-col gap-4">
       <div className="flex flex-col gap-4">
         <h1 className="font-bold">Key Insights & Feedback</h1>
         <div className="flex justify-between">
