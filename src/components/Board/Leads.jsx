@@ -1,4 +1,4 @@
-export default function () {
+export default function Leads() {
   const users = [
     { name: "Wade Warren", Stage: "Initial Inquiry" },
     { name: "Ava Wright", Stage: "Initial Inquiry" },
