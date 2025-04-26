@@ -5,7 +5,7 @@ import Feedback from "./Board/Feedback";
 import Leads from "./Board/Leads";
 export default function Board() {
   return (
-    <div className="mt-6 p-4 flex gap-8 h-1/2 w-full">
+    <div className="p-4 flex gap-8 w-full">
       <AccountProgress />
       <div className="flex flex-col gap-6">
         <Franchise />
