@@ -2,7 +2,7 @@ export default function Franchise() {
   return (
     <div className="w-[338px] h-[284px] max-w-4xl border-black border-2 p-4 rounded-xl flex flex-col gap-4">
       <div className="flex flex-col gap-4">
-        <h1 className="font-semibold">Total Franchisees Onboard</h1>
+        <h1 className="font-bold">Total Franchisees Onboard</h1>
         <div className="flex justify-between">
           <div className="inline-flex gap-4 items-center">
             <p className="font-semibold text-3xl">14</p>
