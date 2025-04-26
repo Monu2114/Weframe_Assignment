@@ -19,7 +19,7 @@ const Navbar = () => {
             <a
               href="#"
               key={index}
-              className="text-20 hover:bg-white hover:text-[#11455D] transition-all duration-200 hover:rounded-sm px-4 py-2"
+              className="text-20 hover:bg-white hover:text-[#11455D] transition-all duration-300 hover:rounded-sm px-4 py-2"
             >
               {element}
             </a>
