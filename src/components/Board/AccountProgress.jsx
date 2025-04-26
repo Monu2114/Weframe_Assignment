@@ -1,6 +1,8 @@
 export default function AccountProgress() {
+  const completed = ["Profile Setup", "Initial Training", "Legal Documents"];
+  const remaining = ["Financial Integretion", "Final Review"];
   return (
-    <div className="col-span-2 rounded-xl p-4 border-2 border-black flex flex-col items-center gap-5">
+    <div className="col-span-2 rounded-xl p-4 border-2 border-[#EAECF0] flex flex-col items-center gap-5">
       <h1 className="font-semibold">Account Progress</h1>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -30,20 +32,27 @@ export default function AccountProgress() {
       <hr className="w-60 border-2 dark:bg-gray-700"></hr>
       <div className="mx-2 p-4 rounded-xl bg-[#F6F7FB] flex flex-col gap-3 max-w-2xl w-full">
         <h2 className="font-semibold ml-4">Steps Completed</h2>
-        <div>
-          <li className="">Profile Setup</li>
-          <li className="">Initial Training</li>
-          <li className="">Legal Documents</li>
-        </div>
+        {completed.map((element, index) => (
+          <div className="inline-flex justify-between">
+            <li>{element}</li>
+            <label className="rounded-xl">
+              <input type="checkbox" checked className="accent-[#0A9952] " />
+            </label>
+          </div>
+        ))}
       </div>
       <div className="mx-2 p-4 rounded-xl bg-[#F6F7FB] flex flex-col gap-3 max-w-2xl w-full">
         <div>
           <h2 className="font-semibold ml-4">Steps Remaining</h2>
         </div>
-        <div>
-          <li className="">Financial Integretion</li>
-          <li className="">Final Review</li>
-        </div>
+        {remaining.map((element, index) => (
+          <div className="inline-flex justify-between">
+            <li>{element}</li>
+            <label>
+              <input type="checkbox" checked className="accent-[#0A9952]" />
+            </label>
+          </div>
+        ))}
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ export default function Leads() {
     { name: "Cody Fisher", Stage: "Initial Inquiry" },
   ];
   return (
-    <div className=" h-full border-black border-2 p-6 rounded-xl flex flex-col gap-2">
+    <div className=" h-full border-[#EAECF0] border-2 p-6 rounded-xl flex flex-col gap-2">
       <div className="flex flex-col gap-4">
         <h1 className="font-bold text-lg">Prospect Leads</h1>
         <div className="ml-2 flex flex-col gap-2 rounded-xl">
