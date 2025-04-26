@@ -14,7 +14,7 @@ export default function Footer() {
     },
   ];
   return (
-    <div className="border-t-2 border-[#D7DFE9] h-full grid grid-cols-4">
+    <div className="mt-4 border-t-2 border-[#D7DFE9] h-full grid grid-cols-4">
       <div className="flex flex-col border-r-2 border-[#D7DFE9]">
         <p className="text-lg font-semibold  py-2 px-6">Pending Questions</p>
         <hr className="w-82 border-gray-200 rounded-sm" />

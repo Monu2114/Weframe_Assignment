@@ -12,7 +12,7 @@ const Navbar = () => {
     "Pending Questions",
   ];
   return (
-    <div className="bg-[#11455D] w-[248px] h-[1062px] px-4">
+    <div className="bg-[#11455D] w-[248px] h-[1074px] px-4">
       <div className="text-white/60 mt-[60px]">
         <div className=" flex flex-col gap-2 w-[216px] h-[32px] mt-[40px]">
           {navbar_array.map((element, index) => (
